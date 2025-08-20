@@ -32,7 +32,7 @@ INSTALLED_APPS = [
 
     # Local apps
     'accounts',
-    'transcription',
+    'transcriptions',
 ]
 
 MIDDLEWARE = [
@@ -46,7 +46,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'stt_project.urls'
+ROOT_URLCONF = 'stt_app.urls'
 
 TEMPLATES = [
     {
@@ -64,8 +64,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'stt_project.wsgi.application'
-ASGI_APPLICATION = 'stt_project.asgi.application'
+WSGI_APPLICATION = 'stt_app.wsgi.application'
+ASGI_APPLICATION = 'stt_app.asgi.application'
 
 # Database - Use SQLite for local development
 DATABASES = {
