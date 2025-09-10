@@ -121,7 +121,7 @@ npm start  # Will run on http://localhost:3000
 
 ---
 
-## 💰 Pricing Model
+<!-- ## 💰 Pricing Model
 
 Cost-per-minute based on Whisper model size:
 
@@ -135,7 +135,7 @@ Cost-per-minute based on Whisper model size:
 
 Users have monthly quota system with usage tracking and automatic cost calculation.
 
----
+--- -->
 
 ## 📝 Roadmap
 
